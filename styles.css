@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid #333;
+}
+
+h1 {
+    color: #222;
+}
